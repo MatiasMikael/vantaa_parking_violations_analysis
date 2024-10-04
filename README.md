@@ -10,7 +10,7 @@ The project consists of four main parts:
 4. **Running Queries**: Several SQL queries are executed to generate insights from the data, including the total violations per year and the top 10 locations with the most violations.
 
 ## Data Source
-The data used in this project is open data available from https://www.avoindata.fi/data/fi/dataset/pysakointivirheet-vantaalla.
+The data used in this project is open data available from: https://www.avoindata.fi/data/fi/dataset/pysakointivirheet-vantaalla.
 
 ### CSV File: `Pysakointivirheet_Vantaalla_fixed.csv`
 The data file used in this project is a cleaned version of the original, formatted to correct any inconsistencies, especially regarding special characters.
@@ -22,19 +22,28 @@ The data file used in this project is a cleaned version of the original, formatt
 git clone https://github.com/MatiasMikael/vantaa_parking_violations_analysis.git
 cd vantaa_parking_violations_analysis
 ```
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt```
 ```
 The project uses environment variables to store database connection information. You will need to create a .env file in the root of the project with the following format:
 ```DB_NAME=pysakointi_data
 DB_USER=postgres
 DB_PASS=your_database_password_here
 DB_HOST=localhost
-DB_PORT=5433```
+DB_PORT=5433
 ```
+
 **Note:** Do not share your password or commit it to version control. Ensure your .env file is listed in .gitignore to keep it private.
-```python fix_special_characters.py```
-```python create_tables.py```
-```python load_data.py```
+
+```bash
+python fix_special_characters.py
+```
+```bash
+python create_tables.py
+```
+```bash
+python load_data.py
+```
 
 ## Scripts
 

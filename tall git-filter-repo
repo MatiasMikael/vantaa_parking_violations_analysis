@@ -1,0 +1,28 @@
+[33m91de806cef00b1134fece40b8cbaff49aedf2a37[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Initial commit
+fix_special_characters.py
+[33m1b690a74a7a2c38ca8a5bce0f1afc21898642d0a[m Initial commit with parking violation data analysis
+.gitattributes
+Pysakointivirheet_Vantaalla.csv
+Pysakointivirheet_Vantaalla_fixed.csv
+create_tables.py
+data_2024.csv
+fix_special_characters.py
+load_data.py
+queries.py
+query_results_month.csv
+query_results_municipality.csv
+query_results_top_location_per_year.csv
+query_results_top_locations.csv
+query_results_total_violations_per_year.csv
+query_results_year.csv
+[33m1a8a9ffcdf9752a63d0158b685b73e8886233cb2[m Track data_2024.csv with Git LFS
+.gitattributes
+[33m9ea6521d52df566bb228ac04b5b2b04a66d88ac7[m Initial commit for PostgreSQL data warehouse project
+.gitignore
+create_tables.py
+data_2024.csv
+load_data.py
+queries.py
+query_results_month.csv
+query_results_municipality.csv
+query_results_year.csv
